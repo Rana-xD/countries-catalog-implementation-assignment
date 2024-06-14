@@ -31,7 +31,7 @@
     if(countryName === null || countryName === '') {
       if(Name.value === '' || countryName === '' || countryName === null){
         api = api+'all';
-        Name.value = countryName;
+        Name.value = '';
       } else{
         api = api+'name/'+Name.value
       }
