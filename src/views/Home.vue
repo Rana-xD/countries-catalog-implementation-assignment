@@ -39,9 +39,6 @@
       api = api+'name/'+countryName;
       Name.value = countryName;
     }
-
-
-    console.log(api);
     const startIndex = (currentPage.value - 1) * 5;
     const endIndex = startIndex + 5;
 
